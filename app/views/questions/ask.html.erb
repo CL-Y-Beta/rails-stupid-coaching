@@ -1,0 +1,11 @@
+<form action="/answer">
+  <label for="question">We think this coach isn't the smartest...</label>
+  <br>
+  <input id="question"
+  name="question"
+  method="get"
+  type="text"
+  placeholder="How high?"
+  value = <%= params[:question]%>>
+  <input type="submit" value="Ask!">
+</form>
